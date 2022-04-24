@@ -1,4 +1,3 @@
-// Первый раз 21.04.22 //
 public class MainApp {
     public static void main(String[] args) {
         printThreeWords();
@@ -6,6 +5,7 @@ public class MainApp {
         printColor();
         comparNumbers();
     }
+
     /*
     Создайте метод printThreeWords(), который при вызове должен отпечатать в столбец три слова: Orange, Banana, Apple.
      */
@@ -21,7 +21,7 @@ public class MainApp {
     сообщение “Сумма положительная”, в противном случае - “Сумма отрицательная”
      */
     public static void checkSumSign() {
-        int a = 1, b = -1;
+        int a = 1, b = 7;
 
         if (a + b >= 0) {
             System.out.println("Сумма положительная");
@@ -37,7 +37,7 @@ public class MainApp {
     включительно), то “Желтый”, если больше 100 (100 исключительно) - “Зеленый”;
      */
     public static void printColor() {
-        int value = 101;
+        int value = 120;
 
         if (value <= 0) {
             System.out.println("Красный");
@@ -55,7 +55,7 @@ public class MainApp {
     необходимо вывести в консоль сообщение “a >= b”, в противном случае “a < b”
     */
     public static void comparNumbers() {
-        int a = 20, b = 55;
+        int a = 20, b = 545;
 
         if (a >= b) {
             System.out.println("a >= b");
@@ -63,5 +63,6 @@ public class MainApp {
         else {
             System.out.println("a < b");
         }
+
     }
 }
